@@ -451,4 +451,4 @@ fs.writeFile("./money.json", JSON.stringify(money), (err) => {
 
 
 
-bot.login(tokenfile.token);
+bot.login(process.env.BOT_TOKEN);
